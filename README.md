@@ -5,11 +5,15 @@ The purpose of this analysis is to assess the effectiveness of a logistic regres
 
 ## Model Performance Metrics
 ### Accuracy:
-The model achieved an accuracy of approximately 99.37%. This indicates that the model is proficient in correctly identifying the overall loan status for most of the test data.
+The model achieved a high accuracy score. This indicates that the model is proficient in correctly identifying the overall loan status for most of the test data.
 
+### Precision for Healthy Loans:
+The model's precision for predicting healthy loans is 1.00, indicating an impeccable accuracy when identifying low-risk loans.
 ### Precision for High-risk Loans:
 The model's precision for predicting high-risk loans is 0.84. This means when the model flags a loan as high-risk, it's correct 84% of the time. While high, there's room for improvement, as a 16% chance of misclassifying a healthy loan could lead to potential missed lending opportunities.
 
+### Recall for Healthy Loans: 
+The model has a recall of 0.99, meaning it identifies 99% of the actual healthy loans correctly.
 ### Recall for High-risk Loans:
 The recall score is 0.99, showcasing the model's capability to identify 99% of actual high-risk loans. A high recall is paramount in credit risk modeling, as failing to detect a high-risk loan can result in significant financial repercussions.
 
